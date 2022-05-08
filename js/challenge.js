@@ -65,6 +65,7 @@ commentForm.addEventListener("submit", (e) => {
   const newCommentEl = document.createElement("p");
   newCommentEl.textContent = newCommentText;
   document.querySelector("#list").appendChild(newCommentEl);
+  commentForm.reset();
 });
 
 /*    Functions     */
