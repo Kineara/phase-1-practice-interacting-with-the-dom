@@ -16,13 +16,13 @@ let currentCount = 0;
 countUpBySeconds();
 
 /*    Buttons     */
-// Increment current count
+// Decrement current count
 buttonMinus.addEventListener("click", () => {
   currentCount--;
   updateCounter();
 });
 
-// Decrement current count
+// Increment current count
 buttonPlus.addEventListener("click", () => {
   currentCount++;
   updateCounter();
